@@ -18,7 +18,7 @@ class Assignment1C {
         Console.Write("Enter the subtotal from your last take-out meal: ");
         float subtotal = float.Parse(Console.ReadLine());
         Console.Write("Enter a whole number less than |32767|: ");
-        int W = int.Parse(Console.ReadLine());
+        short W = short.Parse(Console.ReadLine());
         Console.Write("Enter a single letter: ");
         char letter = char.Parse(Console.ReadLine());
         Console.WriteLine();
